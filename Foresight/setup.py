@@ -18,7 +18,7 @@ setuptools.setup(
     packages=['medgpt', 'medgpt.datasets', 'medgpt.metrics', 'medgpt.utils',
               'medgpt.models', 'medgpt.tokenizers'],
     install_requires=[
-        'datasets==2.15.0'
+        'datasets==2.15.0',
         'transformers==4.35.2',
         'flash-attn==2.3.6',
         ],
